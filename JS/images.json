@@ -1,0 +1,13 @@
+
+[
+    {
+        "src": "images/landscape1.jpg",
+        "alt": "Landscape Project",
+        "orientation": "landscape"
+    },
+    {
+        "src": "",
+        "alt": "Portrait Project",
+        "orientation": "portrait"
+    }
+]
