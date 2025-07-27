@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="45" viewBox="0 0 62 45">
+    <g id="Group_7" data-name="Group 7" transform="translate(-896 -776)">
+        <rect id="Rectangle_3" data-name="Rectangle 3" width="45" height="31" rx="15.5"
+            transform="translate(913 790)" fill="#ffa600" />
+        <path id="Polygon_1" data-name="Polygon 1"
+            d="M5.728,4.558a3,3,0,0,1,5.209,0L14.1,10.094a3,3,0,0,1-2.6,4.488H5.17a3,3,0,0,1-2.6-4.488Z"
+            transform="matrix(0.602, -0.799, 0.799, 0.602, 896, 789.31)" fill="#ffa600" />
+        <text id="you" transform="translate(928 807)" fill="#fff" font-size="7"
+            font-family="Gilroy-Light, Gilroy" font-weight="300" letter-spacing="0.001em">
+            <tspan x="0" y="0">YOU</tspan>
+        </text>
+    </g>
+</svg>

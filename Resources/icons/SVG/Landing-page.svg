@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="375" viewBox="0 0 1376 375">
+    <g id="Group_11" data-name="Group 11" transform="translate(-368 -361)">
+        <g id="Group_1" data-name="Group 1" transform="translate(42 129)">
+            <text id="creative" transform="translate(331 402)" fill="#fff" font-size="173"
+                font-family="Gilroy-Bold, Gilroy ☞" font-weight="700" letter-spacing="0.001em">
+                <tspan x="0" y="0">CREATIVE</tspan>
+            </text>
+            <text id="designer" transform="translate(692 547)" fill="#fff" font-size="173"
+                font-family="Gilroy-Bold, Gilroy ☞" font-weight="700" letter-spacing="0.001em">
+                <tspan x="0" y="0">DESIGNER</tspan>
+            </text>
+            <text id="graphic" transform="translate(333 517)" fill="#ff5f4a" font-size="67"
+                font-family="VladimirScript, Vladimir Script" letter-spacing="0.001em">
+                <tspan x="0" y="0">GRAPHIC</tspan>
+            </text>
+        </g>
+        <g id="Group_2" data-name="Group 2" transform="translate(-56 2)">
+            <rect id="Rectangle_3" data-name="Rectangle 3" width="178" height="49" rx="24.5"
+                transform="translate(1230 421)" fill="#ffa600" />
+            <path id="Polygon_1" data-name="Polygon 1"
+                d="M10.307,4.558a3,3,0,0,1,5.209,0l7.742,13.549a3,3,0,0,1-2.6,4.488H5.17a3,3,0,0,1-2.6-4.488Z"
+                transform="matrix(0.602, -0.799, 0.799, 0.602, 1203.975, 420.624)" fill="#ffa600" />
+            <text id="visual_designer" data-name="visual designer" transform="translate(1267 449)"
+                fill="#fff" font-size="12" font-family="Gilroy-Light, Gilroy" font-weight="300"
+                letter-spacing="0.001em">
+                <tspan x="0" y="0">VISUAL DESIGNER</tspan>
+            </text>
+        </g>
+        <g id="Group_5" data-name="Group 5" transform="translate(4.025 9)">
+            <rect id="Rectangle_3-2" data-name="Rectangle 3" width="150" height="42" rx="21"
+                transform="translate(386 669)" fill="#ff5f4a" />
+            <path id="Polygon_1-2" data-name="Polygon 1"
+                d="M8.282,4.558a3,3,0,0,1,5.209,0l5.717,10.005a3,3,0,0,1-2.6,4.488H5.17a3,3,0,0,1-2.6-4.488Z"
+                transform="matrix(0.602, -0.799, 0.799, 0.602, 363.975, 669.389)" fill="#ff5f4a" />
+            <text id="product_designer" data-name="product designer" transform="translate(409 693)"
+                fill="#fff" font-size="10" font-family="Gilroy-Light, Gilroy" font-weight="300"
+                letter-spacing="0.001em">
+                <tspan x="0" y="0">PRODUCT DESIGNER</tspan>
+            </text>
+        </g>
+        <g id="Group_6" data-name="Group 6" transform="translate(96 1)">
+            <rect id="Rectangle_3-3" data-name="Rectangle 3" width="182" height="50" rx="25"
+                transform="translate(1466 685)" fill="#6745fd" />
+            <path id="Polygon_1-3" data-name="Polygon 1"
+                d="M10.56,4.558a3,3,0,0,1,5.209,0l8,13.991a3,3,0,0,1-2.6,4.488H5.17a3,3,0,0,1-2.6-4.488Z"
+                transform="matrix(0.602, -0.799, 0.799, 0.602, 1440, 685.027)" fill="#6745fd" />
+            <text id="ui_ux_designer" data-name="ui/ux designer" transform="translate(1507 715)"
+                fill="#fff" font-size="13" font-family="Gilroy-Light, Gilroy" font-weight="300"
+                letter-spacing="0.001em">
+                <tspan x="0" y="0">UI/UX DESIGNER</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
