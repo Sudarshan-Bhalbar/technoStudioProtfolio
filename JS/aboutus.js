@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
+
 
 const openBtn = document.getElementById("open-btn");
 const closeBtn = document.getElementById("close-btn");
@@ -19,7 +19,9 @@ closeBtn.addEventListener("click", () => {
 
 
 
-// ------------------------------ Testimonials -------------------------------------------------
+// --------------------- Testimonials -------------------------------------
+
+
 const testimonials = [
   {
     quote:
@@ -158,107 +160,3 @@ const autoplayInterval = setInterval(handleNext, 5000);
     clearInterval(autoplayInterval);
   });
 });
-
-document.addEventListener("DOMContentLoaded", () => {
-  const boxes = document.querySelectorAll(".box");
-
-  const observer = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          gsap.from(entry.target, {
-            opacity: 0,
-            y: 200,
-            duration: 2,
-            ease: "power2.out",
-          });
-          observer.unobserve(entry.target); // Stop observing once animated
-        }
-      });
-    },
-    // { threshold: 0 }
-  );
-
-  boxes.forEach((box) => {
-    observer.observe(box);
-  });
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  const boxes = document.querySelectorAll(".animate");
-
-  const observer = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          gsap.from(entry.target, {
-            opacity: 0,
-            y: 200,
-            duration: 2,
-            ease: "power2.out",
-          });
-          observer.unobserve(entry.target); // Stop observing once animated
-        }
-      });
-    }
-    // { threshold: 0 }
-  );
-
-  boxes.forEach((box) => {
-    observer.observe(box);
-  });
-});
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  const textAnimation = document.querySelectorAll(".text-animation");
-
-  const observer = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          gsap.from(entry.target, {
-            opacity: 0,
-            y: 100,
-            duration: 2,
-            ease: "power2.out",
-          });
-          observer.unobserve(entry.target); // Stop observing once animated
-        }
-      });
-    }
-    // { threshold: 0 }
-  );
-
-  textAnimation.forEach((textAnimation) => {
-    observer.observe(textAnimation);
-  });
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  const textAnimation = document.querySelectorAll(".reverse-text-animation");
-
-  const observer = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          gsap.from(entry.target, {
-            opacity: 0,
-            y: -100,
-            duration: 2,
-            ease: "power2.out",
-          });
-          observer.unobserve(entry.target); // Stop observing once animated
-        }
-      });
-    }
-    // { threshold: 0 }
-  );
-
-  textAnimation.forEach((textAnimation) => {
-    observer.observe(textAnimation);
-  });
-});
-
-
-

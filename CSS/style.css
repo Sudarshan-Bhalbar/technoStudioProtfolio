@@ -194,7 +194,8 @@ body {
   gap: 5rem;
 }
 .landing-page > img {
-  width: 75vw;
+  width: 60rem;
+  margin-left: 5rem;
   animation: slideUp 1.5s ease forwards;
 }
 
